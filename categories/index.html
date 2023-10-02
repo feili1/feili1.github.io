@@ -2,7 +2,7 @@
 <html>
 	<head>
 		
-<title>个人简介-Quiet</title>
+<title>文章分类-Quiet</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -67,13 +67,13 @@
 								
 									
 						
-								<li>
-									<a href="/categories">
-										CATEGORIES
-									</a>
-									<span class="dot"></span>
-								</li>
-								
+							<li class="select">
+								<a href="/categories">
+									CATEGORIES
+								</a>
+								<span class="dot"></span>
+							</li>
+							
 									
 						
 								<li>
@@ -94,13 +94,13 @@
 								
 									
 						
-							<li class="select">
-								<a href="/about">
-									ABOUT
-								</a>
-								<span class="dot"></span>
-							</li>
-							
+								<li>
+									<a href="/about">
+										ABOUT
+									</a>
+									<span class="dot"></span>
+								</li>
+								
 									
 				</ul>
 			</div>
@@ -275,24 +275,25 @@
 
 </script>
 
-<div class="about">
-    <div class="about-header-background">
-        <div class="about-header-background-content">
-            <img src="" alt="Q">
-            <h1> Yifei Li
-                <span>一个快乐的Girl</span>
-            </h1>
-        </div>
-    </div>
-    
-    <div class="about-content" id="content" >
-        <div id="article" class="about-content-info">
-            
-        </div>
-        <div id=""></div>
+
+<div class="categories">
+    <div class="header-body-background">
+    <div class="header-body-background-content">
+        <span>
+            <img src="https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg" alt="Quiet">
+        </span>
+
+        <h2>文章分类</h2>
     </div>
 </div>
-
+    <div class="categories-content" id="content">
+        <div class="categories-content-data">
+				<div class="categories-class">
+					
+				</div>
+        </div>
+    </div>
+</div>
 		
 <div class="footer">
 	<div class="Copyright">
@@ -396,7 +397,7 @@
             distractionFreeMode:false
         })
         
-        if(Boolean('false')){
+        if(Boolean('true')){
             gitalk.render('gitalk-container')
         }
     </script>
